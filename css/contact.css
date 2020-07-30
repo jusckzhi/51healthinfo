@@ -1,0 +1,140 @@
+/* 渠道招商 */
+#cooperations .customer {
+  position: relative;
+  padding: 70px 0px 0px 0px;
+  text-align: center;
+}
+
+/* end */
+
+.contactTable {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.contactTable .container {
+  width: 960px;
+  padding: 70px 0 0;
+}
+
+.contactTable .left {
+  width: 500px;
+  float: left;
+}
+
+.contactTable .left .redTitle {
+  padding: 5px 0px;
+  border-bottom: 2px solid #0d6898;
+  color: #0d6898;
+  font-family: "MyriadPro-Regular_0";
+  height: 60px;
+  line-height: 60px;
+  font-size: 48px;
+  margin-bottom: 15px;
+
+}
+
+.contactTable .left .title {
+  color: #696969;
+  padding: 14px 0 6px 0;
+  margin-bottom: 8px;
+  font-family: "Noto Sans S Chinese Light", "NotoSansHans-Light", "微软雅黑";
+  font-weight: 100;
+  line-height: 46px;
+  font-size: 40px;
+}
+
+.contactTable .right .footTitle {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #696969;
+  margin: 24px 0 6px 0;
+}
+
+.contactTable .right .footTitle span {
+  vertical-align: middle;
+}
+
+.contactTable .right .footTitle .titleB {
+  font-family: "FujitsuSansBold";
+  font-size: 26px;
+  margin-right: 5px;
+}
+
+.contactTable .left .info,
+.contactTable .right .info {
+  font-size: 14px;
+  color: #696969;
+  line-height: 30px;
+}
+
+
+
+
+
+.contactTable .right {
+  width: 400px;
+  float: right;
+}
+
+.contactTable .right .titleB {
+  font-size: 30px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.contactTable .right .info {
+  margin-bottom: 10px;
+}
+
+/* textCont */
+.textCont {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 50px;
+  font-size: 12px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+
+
+.map {
+  position: relative;
+  padding: 120px 0 0 0;
+  text-align: center;
+}
+
+.map .mapTitle {
+  font-size: 36px;
+  color: #696969;
+  line-height: 36px;
+}
+
+.map .mapSub {
+  width: 60px;
+  height: 2px;
+  background: #0d6898;
+  margin: 15px auto 30px;
+}
+
+.map .mapInfo {
+  font-size: 24px;
+  line-height: 60px;
+  width: 960px;
+  color: #696969;
+  margin: 0px auto;
+}
+
+.mapc {
+  /* width: 960px; */
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.map .mapContent {
+  width: 100vw;
+  height: 596px;
+  margin-top: 50px;
+}

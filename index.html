@@ -1,0 +1,889 @@
+<!-- <%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%> -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>关爱健康——新融汇通健康管家</title>
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <!-- Le styles -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/base.css">
+  <link rel="stylesheet" type="text/css" href="./css/page_home.css?v=20200722">
+
+</head>
+<link rel="stylesheet" href="./css/jquery.validator.css">
+
+
+<link rel="stylesheet" type="text/css" href="./css/basex.css" />
+<link rel="stylesheet" type="text/css" href="./css/rewind.css" />
+<link rel="stylesheet" type="text/css" href="./css/contact.css" />
+<link rel="stylesheet" type="text/css" href="./css/job.css" />
+
+
+<script type="text/javascript" src="./js/piwik.js"></script>
+<script src="./js/hm.js"></script>
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?f07e77934cad828acdfd0d3a5d371324";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+</head>
+
+<body>
+
+  <!--悬浮导航 S-->
+  <div class="nav_box_small" id="navBoxSmall" style="display: none;">
+    <div class="nav_box_small_center">
+      <a href="javascript:;" class="nav_logo"></a>
+      <ul class="nav_box_small_list">
+        <li class="nav_box_small_list_li1" data-track="体征测量">
+          <a href="#cont1" id="nav_box_small_list_li1">
+            <font class="nav_small_btn1 nav_small_sp" style="background-position: 0px 0px;"></font>
+            <span style="color: rgb(147, 147, 147);">体征测量</span>
+          </a>
+        </li>
+        <li class="nav_box_small_list_li2" data-track="健康档案">
+          <a href="#cont2" id="nav_box_small_list_li2">
+            <font class="nav_small_btn2 nav_small_sp" style="background-position: -107px 0px;"></font>
+            <span style="color: rgb(147, 147, 147);">健康档案</span>
+          </a>
+        </li>
+        <li class="nav_box_small_list_li3" data-track="健康咨询">
+          <a href="#cont3" id="nav_box_small_list_li3">
+            <font class="nav_small_btn3 nav_small_sp" style="background-position: -214px 0px;"></font>
+            <span style="color: rgb(147, 147, 147);">健康咨询</span>
+          </a>
+        </li>
+        <li class="nav_box_small_list_li4" data-track="健康科普">
+          <a href="#cont4" id="nav_box_small_list_li4">
+            <font class="nav_small_btn4 nav_small_sp" style="background-position: -321px 0px;"></font>
+            <span style="color: rgb(147, 147, 147);">健康科普</span>
+          </a>
+        </li>
+        <li class="nav_box_small_list_li5" data-track="健康商城">
+          <a href="#cont5" id="nav_box_small_list_li5">
+            <font class="nav_small_btn5 nav_small_sp" style="background-position: -428px 0px;"></font>
+            <span style="color: rgb(147, 147, 147);">健康商城</span>
+          </a>
+        </li>
+        <li class="nav_box_small_list_li6" data-track="康康团">
+          <a href="#cont6" id="nav_box_small_list_li6">
+            <font class="nav_small_btn6 nav_small_sp" style="background-position: -535px 0px;"></font>
+            <span style="color: rgb(147, 147, 147);">康康团</span>
+          </a>
+        </li>
+        <li class="nav_box_small_list_li7" data-track="服务站">
+          <a href="#cont7" id="nav_box_small_list_li7">
+            <font class="nav_small_btn7 nav_small_sp" style="background-position: -642px 0px;"></font>
+            <span style="color: rgb(147, 147, 147);">服务站</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="textNav" style="display: none;">
+      <a href="#cont1">体征测量</a>
+      <a href="#cont2">健康档案</a>
+      <a href="#cont3">健康咨询</a>
+      <a href="#cont4">健康科普</a>
+      <a href="#cont5">健康商城</a>
+      <a href="#cont6">康康团</a>
+      <a href="#cont7">服务站</a>
+    </div> -->
+    <div class="headerNav">
+      <div class="headerlogo"><a href="javascript:;" class="nav_logo"></a></div>
+      <div class="closeNav" id="closeNav">三</div>
+    </div>
+  </div>
+  <div class="headerNav_list" id="navShade">
+    <ul id="headerNav_list">
+      <li><a href="#cont1">体征测量</a></li>
+      <li><a href="#cont2">健康档案</a></li>
+      <li><a href="#cont3">健康咨询</a></li>
+      <li><a href="#cont4">健康科普</a></li>
+      <li><a href="#cont5">健康商城</a></li>
+      <li><a href="#cont6">康康团</a></li>
+      <li><a href="#cont7">服务站</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <!--悬浮导航 E-->
+  <!-- 头部 S -->
+  <div class="hd_box" id="hdBox">
+    <div class="header" id="header">
+      <div class="hd_center" id="hdCenter">
+        <div class="hd_top" id="hdTop">
+          <p class="ie_ts" id="ieTs" style="display:none">您的浏览器版本过低，请下载IE9以上版本，查看更流畅的效果</p>
+          <a href="http://www.51healthinfo.com/" class="pg_logo" title="关爱健康——新融汇通健康管家"></a>
+          <div class="kf_iphone">
+            <!-- <span class="kf_iphone_icon icon_sp"></span>
+                         <span class="kf_iphone_text">13958185810</span> -->
+          </div>
+          <div class="login_box">
+            <a class="btn_login" title="服务站登录" id="loginPanel">服务站登录</a>
+            <a class="btn_reg" title="服务站注册" id="registerPanel">服务站注册</a>
+          </div>
+          <a href="javascript:;" class="btn_ma icon_sp" id="btnMa"></a>
+          <div class="ma_box" id="maBox" style="display: none;"></div>
+        </div>
+        <div class="hd_text">
+          <h1 class="hd_text_h1">“<span class="hd_text_h1_s1">关爱<span class="hd_text_h1_s2">父母，传承</span><span
+                class="hd_text_h1_s1">孝心</span></span>”—新融汇通健康管家</h1>
+          <h2 class="hd_text_h2">
+            <span class="hd_text_h2_s1"></span>
+
+            <span class="hd_text_h2_s2">健康人生，从这里开始</span>
+
+            <span class="hd_text_h2_s3"></span>
+          </h2>
+        </div>
+      </div>
+      <!-- nav S -->
+      <div class="nav_box_big" id="navBox" style="top: 465px;">
+        <div class="nav_box_center">
+          <ul class="nav_list" id="navList">
+            <li class="nav_list_li1" data-type="nav_box_small_list_li1" data-track="体征测量">
+              <a href="#cont1" class="nav_btn1 nav_sp" id="navBtn1"></a>
+              <span>体征测量</span>
+            </li>
+            <li class="nav_list_li2" data-type="nav_box_small_list_li2" data-track="健康档案">
+              <a href="#cont2" class="nav_btn2 nav_sp"></a>
+              <span>健康档案</span>
+            </li>
+            <li class="nav_list_li3" data-type="nav_box_small_list_li3" data-track="健康咨询">
+              <a href="#cont3" class="nav_btn3 nav_sp"></a>
+              <span>健康咨询</span>
+            </li>
+            <li class="nav_list_li4" data-type="nav_box_small_list_li4" data-track="健康科普">
+              <a href="#cont4" class="nav_btn4 nav_sp"></a>
+              <span>健康科普</span>
+            </li>
+            <li class="nav_list_li5" data-type="nav_box_small_list_li5" data-track="健康商城">
+              <a href="#cont5" class="nav_btn5 nav_sp"></a>
+              <span>健康商城</span>
+            </li>
+            <li class="nav_list_li6" data-type="nav_box_small_list_li6" data-track="康康团">
+              <a href="#cont6" class="nav_btn6 nav_sp"></a>
+              <span>康康团</span>
+            </li>
+            <li class="nav_list_li7" data-type="nav_box_small_list_li7" data-track="服务站">
+              <a href="#cont7" class="nav_btn7 nav_sp"></a>
+              <span>服务站</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- nav E -->
+    </div>
+  </div>
+  <!-- 头部 E -->
+
+  <!-- 内容一 S -->
+  <div class="cont1" id="cont1" data-type="nav_box_small_list_li1" data-block="section_block">
+    <div class="cont1_center">
+      <div class="cont1_left">
+        <div class="cont1_title">
+          <p class="cont1_title_p1">体征测量</p>
+          <p class="cont1_title_p2">PHYSICAL EXAMINATION</p>
+        </div>
+        <div class="cont1_sub_heads1">
+          <p class="cont1_sub_heads1_p1">体征测量</p>
+          <div class="cont1_sub_heads1_p2" id="cont1TabText">
+            <span class="cont1_tab_text">血压测量</span>
+            <font>、</font>
+            <span class="cont1_tab_text">血糖测量</span>
+            <font>、</font>
+            <span class="cont1_tab_text">血氧测量</span>
+            <font>、</font>
+            <span class="cont1_tab_text">总胆固醇测量</span>
+            <font>，</font>
+            <c>一应俱全。</c>
+            <span id="cont1_tab_text_last" class="cont1_tab_text_h">微信公众号+微信小程序+APP</span>
+          </div>
+        </div>
+        <div class="cont1_sub_heads2">
+          <p class="cont1_sub_heads1_p1">多端同步</p>
+          <div class="cont1_sub_heads1_p2">
+
+          </div>
+        </div>
+        <div class="cont1_sub_heads3">
+          <p class="cont1_sub_heads1_p3">各种体征测量，高效便捷！你需要的，只是动动手而已。</p>
+        </div>
+        <a data-track="体征测量-了解更多" href="#" class="btn_lj_moer" title="了解更多" target="_blank">
+          <span class="btn_lj_moer_text">了解更多</span>
+          <span class="btn_lj_moer_icon icon_sp"></span>
+        </a>
+      </div>
+      <div class="cont1_right">
+        <ul class="cont1_tab_list" id="cont1TabList">
+          <li class="cont1_tab_list_li" style="display: none;">
+            <img src="./images/cont1_tab_img1.jpg" alt="">
+          </li>
+          <li class="cont1_tab_list_li" style="display: none;">
+            <img src="./images/cont1_tab_img2.jpg" alt="">
+          </li>
+          <li class="cont1_tab_list_li" style="display: none;">
+            <img src="./images/cont1_tab_img3.jpg" alt="">
+          </li>
+          <li class="cont1_tab_list_li" style="display: none;">
+            <img src="./images/cont1_tab_img4.jpg" alt="">
+          </li>
+          <li class="cont1_tab_list_li_hide" style="display: block;">
+            <img src="./images/cont1_tab_img5.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 内容一 E -->
+
+  <!-- 内容二 S -->
+  <div class="cont2 play" id="cont2" data-type="nav_box_small_list_li2" data-block="section_block">
+    <div class="cont2_center">
+      <div class="cont2_left">
+        <div class="cont2_qx_box">
+          <div class="qx1" id="qx1" style="display: block;"></div>
+          <div class="qx2" id="qx2" style="display: block;"></div>
+        </div>
+      </div>
+      <div class="cont2_right">
+        <div class="cont2_title">
+          <p class="cont2_title_p1">健康档案</p>
+          <p class="cont2_title_p2">HEALTH RECORDS</p>
+        </div>
+        <div class="cont2_sub_heads1">
+          <p class="cont2_sub_heads1_p1">家庭健康档案</p>
+          <div class="cont2_sub_heads1_p2">
+            <p class="cont2_sub_heads1_p2_text">根据家庭关系，维护家庭健康档案！</p>
+            <p class="cont2_sub_heads1_p2_text">区块链技术保护你的隐私！</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- 内容二 E -->
+
+  <!-- 内容三 S -->
+  <div class="cont3 play" id="cont3" data-type="nav_box_small_list_li3" data-block="section_block">
+    <div class="cont3_center">
+      <div class="cont3_left">
+        <div class="cont3_title">
+          <p class="cont3_title_p1">健康咨询</p>
+          <p class="cont3_title_p2">HEALTH CONSULTATION</p>
+        </div>
+        <div class="cont3_sub_heads1">
+          <p class="cont3_sub_heads_p1">专家咨询</p>
+          <p class="cont3_sub_heads_p2">付费预约！在线一对一服务！</p>
+        </div>
+        <div class="cont3_sub_heads2">
+          <p class="cont3_sub_heads_p1">助理服务</p>
+          <p class="cont3_sub_heads_p2">随时随地为你服务！</p>
+        </div>
+        <div class="cont3_sub_heads3">
+          <p class="cont3_sub_heads_p1">多种方式</p>
+          <p class="cont3_sub_heads_p2">图文、语音、视频，由你选择！</p>
+        </div>
+        <div class="cont3_sub_heads4">
+          <p class="cont3_sub_heads_p1">社区服务</p>
+          <p class="cont3_sub_heads_p2">社区服务站，贴身咨询，让你满意！</p>
+        </div>
+      </div>
+
+      <div class="cont3_right" id="cont3Right" style="display: block;">
+        <div class="cont3_right_move">
+          <div class="cont3_yuan1" id="cont3_yuan1"></div>
+          <div class="cont3_yuan2" id="cont3_yuan2"></div>
+          <div class="cont3_yuan3" id="cont3_yuan3"></div>
+          <div class="cont3_iphone" id="cont3_iphone"></div>
+          <div class="cont3_right_text1" id="cont3RightText1">
+            <span class="cont3_right_text_even">专家咨询</span>
+            <span class="cont3_blue_icon icon_sp"></span>
+          </div>
+          <div class="cont3_right_text2" id="cont3RightText2">
+            <span class="cont3_right_text_even">助理在线</span>
+            <span class="cont3_blue_icon icon_sp"></span>
+          </div>
+          <div class="cont3_right_text3" id="cont3RightText3">
+            <span class="cont3_blue_icon icon_sp"></span>
+            <span class="cont3_right_text_even">多种方式</span>
+          </div>
+          <div class="cont3_right_text4" id="cont3RightText4">
+            <span class="cont3_blue_icon icon_sp"></span>
+            <span class="cont3_right_text_even">社区服务</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- 内容三 E -->
+
+  <!-- 内容四 S -->
+  <div class="cont4 play" id="cont4" data-type="nav_box_small_list_li4" data-block="section_block">
+    <div class="cont4_center">
+      <a href="javascript:;" class="cont4_title" id="cont4Title" style="display: block;">
+        <p class="cont4_title_p1">健康科普</p>
+        <p class="cont4_title_p2">HEALTH SCIENCE POPULARIZATION</p>
+      </a>
+      <div class="cont4_even" id="cont4Even" style="display: block;">
+        <p class="cont4_even_p1">图文、视频、点播、直播，让你享受健康知识大餐！</p>
+        <p class="cont4_even_p2">嗨圈提供店务管理及人才培训，全面提升店面管理服务质量，帮助店铺实现精细化经营。</p>
+        <p class="cont4_even_p3">让你遨游健康知识的海洋！</p>
+      </div>
+    </div>
+  </div>
+  <!-- 内容四 E -->
+
+  <!-- 内容五 S -->
+  <div class="cont5 play" id="cont5" data-type="nav_box_small_list_li5" data-block="section_block">
+    <div class="cont5_center" id="cont5Center" style="display: block;">
+      <div class="cont5_title">
+        <p class="cont5_title_p1">仅仅科普是不够的，还需要健康身体的保障！</p>
+        <div class="cont5_title_inf">
+          <span class="cont5_title_inf_s1"></span>
+          <span class="cont5_title_inf_s2">HEALTH MALL</span>
+          <span class="cont5_title_inf_s3"></span>
+        </div>
+      </div>
+      <ul class="cont5_even_list">
+        <li class="cont5_even_list_box1">
+          <span class="cont5_even_wx_icon icon_sp"></span>
+          <span class="cont5_even_wx_title">服务套餐</span>
+          <span class="cont5_even_wx_inf">根据你的需要，多种组合！让你能够及时享受各种健康咨询服务。</span>
+        </li>
+        <li class="cont5_even_list_box2">
+          <span class="cont5_even_gg_icon icon_sp"></span>
+          <span class="cont5_even_wx_title">家庭器械</span>
+          <span class="cont5_even_wx_inf">各种家庭医疗器械相关产品，品质保障，让你在家也能进行体征测量。</span>
+        </li>
+        <li class="cont5_even_list_box3">
+          <span class="cont5_even_shop_icon icon_sp"></span>
+          <span class="cont5_even_wx_title">健康食品</span>
+          <span class="cont5_even_wx_inf">健康食品是健康身体的保障，我们提供绿色健康食品，让你健康无忧。</span>
+        </li>
+        <li class="cont5_even_list_box4">
+          <span class="cont5_even_zy_icon icon_sp"></span>
+          <span class="cont5_even_wx_title">保健药品</span>
+          <span class="cont5_even_wx_inf">根据你的体征测量情况，能够选择适合你的药物。</span>
+        </li>
+      </ul>
+      <div style="height:20px !important;" class="vmodel"></div>
+      <a class="cont6_btn_more" data-track="健康商城-前往商城" title="前往商城" href="http://mall.51healthinfo.com/"
+        target="_blank">
+        <span class="cont6_btn_more_text">前往商城</span>
+        <span class="cont6_btn_more_icon icon_sp"></span>
+      </a>
+    </div>
+  </div>
+  <!-- 内容五 E -->
+
+  <!-- 内容六 S -->
+  <div class="cont6 play" id="cont6" data-type="nav_box_small_list_li6" data-block="section_block">
+    <div class="cont6_center" id="cont6Center" style="display: block;">
+      <a href="javascript:;" class="cont6_title">
+        <p class="cont6_title_p1">康康团</p>
+        <div class="cont6_title_inf">
+          <span class="cont6_title_inf_s1"></span>
+          <span class="cont6_title_inf_s2">KANGKANG GROUP</span>
+          <span class="cont6_title_inf_s3"></span>
+        </div>
+      </a>
+      <div id="cont4Even" style="display: block;">
+        <p class="cont6_h2">爱健康群体的海洋，互相认识互相督促，让大家都有一个健康的身体！</p>
+        <p class="cont6_h2">认识身边的人，关心身边的人，一群共同爱好共同特点的人群互相帮助互相支持。</p>
+        <p class="cont6_h2">让你融入身边关爱健康的人群！</p>
+      </div>
+
+      <a class="cont6_btn_more" data-track="康康团-了解更多" title="了解更多" href="javascript:;">
+        <span class="cont6_btn_more_text">了解更多</span>
+        <span class="cont6_btn_more_icon icon_sp"></span>
+      </a>
+
+    </div>
+  </div>
+  <!-- 内容六 E -->
+
+  <!-- 内容七 S -->
+  <div class="cont7" id="cont7" data-type="nav_box_small_list_li7" data-block="section_block">
+    <div class="cont7_center">
+      <a href="javascript:;" class="cont7_title">
+        <p class="cont7_title_p1">服务站</p>
+        <div class="cont7_title_inf">
+          <span class="cont7_title_inf_s1"></span>
+          <span class="cont7_title_inf_s2">SERVICE STATION</span>
+          <span class="cont7_title_inf_s3"></span>
+        </div>
+      </a>
+      <div class="brand_number">
+        服务站数量
+        <span class="brand_number_text" id="brandNumberText">100</span>
+        家，服务用户数
+        <span class="orders_number_text" id="ordersNumberText">10000</span>
+        个，<br class="br" style="display: none;">
+        <a title="前往服务中心" data-track="服务站-前往服务中心" class="go_shop_center" href="http://service.51healthinfo.com/"
+          target="_blank">前往服务中心<font>&gt;&gt;</font></a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 关于我们 html-->
+  <div id="about">
+
+    <!-- 简介 -->
+    <div id="redwinds">
+
+      <div class="main">
+
+        <div class="mainChild" id="mainChild1">
+          <div class="container">
+            <p class="mainChildTitle">公司简介</p>
+            <div class="sub"></div>
+            <div class="content">
+              <p class="info">
+                2020年是一个特殊的年份，全球被新冠疫情笼罩，一群有志于健康领域的人才成立杭州新融汇通科技有限公司，创始团队横跨医疗健康及金融科技两个领域，对相关领域有其深入研究及独特见解。
+              </p>
+              <p class="info">
+
+                秉承<span style="color: #f00;"> 激情、守信、敬畏、利他 </span>的价值观，为用户提供有温度的健康管理咨询服务
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <!-- 工作 -->
+    <div id="jobs">
+
+      <div class="main">
+        <p class="mainsTitle">招聘中心</p>
+        <div class="mainSub"></div>
+        <p class="mainsInfo">最新招聘信息</p>
+        <div class="container">
+          <div class="content">
+            <div class="child" id="jobChild18">
+              <p class="name">人事行政专员</p>
+              <div class="department">
+                <span class="sub"></span>招聘人数:
+                <span class="redSpan">1人</span>
+                <span class="sub">|</span>学历:
+                <span>本科及以上，人力资源、心理学、相关经济/管理类等专业</span>
+              </div>
+              <div class="childPointer"></div>
+              <div class="childContent">
+                <p>
+                  岗位职责：
+                  <br /> 1. 管理员工信息资料及劳动合同等各类人事资料。
+                  <br /> 2. 办理人员招聘、薪酬福利、绩效考核等相关各项工作。
+                  <br /> 3. 办理员工解聘、社保、公积金等相关手续。
+                  <br /> 4. 进行员工考勤、办公用品采购等相关工作。
+                  <br /> 5. 领导交办的相关事情。
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                  任职要求：
+                  <br /> 1. 熟悉国家相关法律法规；
+                  <br /> 2. 熟悉人力资源操作流程、熟悉工资薪酬计算；
+                  <br /> 3. 工作认真仔细、有耐心、有亲和力，能与他人开展良好合作；
+                  <br /> 4. 本科及以上学历，人力资源、心理学、相关经济/管理类等专业;
+                  <br /> 5. 1~3年相关人力资源基础工作经验，有互联网、科技类、医疗健康类相关企业工作经验优先;
+              </div>
+            </div>
+            <div class="child" id="jobChild18">
+              <p class="name">产品经理</p>
+              <div class="department">
+                <span class="sub"></span>招聘人数:
+                <span class="redSpan">若干</span>
+                <span class="sub">|</span>学历:
+                <span>本科及以上学历，心理学、市场营销、计算机、医学/护理类相关专业</span>
+              </div>
+              <div class="childPointer"></div>
+              <div class="childContent">
+                <p>
+                  岗位职责：
+                  <br /> 1. 进行产品相关设计及开发，并做相关市场调研，出具调研报告；
+                  <br /> 2. 分析竞争对手产品，并编写竞品分析报告；
+                  <br /> 3. 协助市场人员做好产品营销策划方案；
+                  <br /> 4. 进行产品运营相关工作，为产品优化提供建议；
+                  <br /> 5. 与技术人员一起进行产品测试，并对产品结果进行检验；
+                  <br /> 6. 对产品进行生命周期管理，对产品相关资料进行归档管理；
+                  <br /> 7. 领导交办其他产品相关事宜；
+
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                  任职要求：
+                  <br /> 1. 具备同理心进行换位思考，能站在用户角度思考问题，具有市场敏感度；
+                  <br /> 2. 具备较强的市场分析能力，有积极向上的工作态度，有良好的沟通能力和团队合作精神；
+                  <br /> 3. 熟悉相关原型制作工具及思维导图类工具，具备一定的美学基础；
+                  <br /> 4. 有很强的执行力，很强的文案编写能力;
+                  <br /> 5. 本科及以上学历，心理学、市场营销、计算机、医学/护理类相关专业;
+                  <br /> 6. 3年产品相关工作经验，有互联网、科技类、医疗健康类相关企业工作经验优先；
+              </div>
+            </div>
+            <div class="child" id="jobChild18">
+              <p class="name">JAVA工程师</p>
+              <div class="department">
+                <span class="sub"></span>招聘人数:
+                <span class="redSpan">若干</span>
+                <span class="sub">|</span>学历:
+                <span>专科及以上学历，计算机相关专业</span>
+              </div>
+              <div class="childPointer"></div>
+              <div class="childContent">
+                <p>
+                  岗位职责：
+                  <br /> 1. 参与产品构思和框架设计，参与产品设计相关会议；
+                  <br /> 2. 完成软件设计、开发、测试及BUG修改工作；
+                  <br /> 3. 对系统进行相应维护，确保系统正常运行；
+                  <br /> 4. 撰写相关技术文案，并对相关技术文案进行归档管理；
+                  <br /> 5. 领导交办的其他相关事宜；
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                  任职要求：
+                  <br /> 1. 有一定的软件分析能力，熟悉JAVA相关技术及框架；
+                  <br /> 2. 熟练使用Eclipse等相关JAVA开发工具；
+                  <br /> 3. 熟悉至少一种数据库开发及设计；
+                  <br /> 4. 具有良好的学习能力、强烈的工作责任心、良好的沟通能力和合作精神;
+                  <br /> 5. 专科及以上学历，计算机相关专业毕业，一年至三年相关工作经验;
+              </div>
+            </div>
+            <div class="child" id="jobChild18">
+              <p class="name">前端工程师</p>
+              <div class="department">
+                <span class="sub"></span>招聘人数:
+                <span class="redSpan">若干</span>
+                <span class="sub">|</span>学历:
+                <span>专科及以上学历，计算机相关专业</span>
+              </div>
+              <div class="childPointer"></div>
+              <div class="childContent">
+                <p>
+                  岗位职责：
+                  <br /> 1. 负责系统表现层及与前后端交互的框架设计和开发；
+                  <br /> 2. 配合后台人员实现产品界面和功能；
+                  <br /> 3. 与UI设计师一起确定前端界面的设计及交互逻辑；
+                  <br /> 4. 进行前端优化及BUG修改，确保用户良好体验；
+                  <br /> 5. 编写相关技术文案，并进行归档管理；
+                  <br /> 6. 领导交办的其他相关事宜；
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                  任职要求：
+                  <br /> 1. 熟悉前端相关技术，对常用的前端框架能熟练使用；
+                  <br /> 2. 熟悉H5和CSS3，对浏览器的兼容性有很大的了解；
+                  <br /> 3. 对用户体验、交互操作流程、用户需求有深入了解；
+                  <br /> 4. 专科及以上学历，计算机相关专业毕业，一年至三年相关工作经验;
+                  <br /> 5. 有微信公众号及小程序开发经验优先;
+              </div>
+            </div>
+            <div class="child" id="jobChild18">
+              <p class="name">UI设计师</p>
+              <div class="department">
+                <span class="sub"></span>招聘人数:
+                <span class="redSpan">1人</span>
+                <span class="sub">|</span>学历:
+                <span>专科及以上学历，美术类、平面设计、数字媒体类等相关专业</span>
+              </div>
+              <div class="childPointer"></div>
+              <div class="childContent">
+                <p>
+                  岗位职责：
+                  <br /> 1. 负责产品界面的美术设计、创意设计和制作工作；
+                  <br /> 2. 根据产品设计，提出构思新颖、有高度吸引力的创意设计；
+                  <br /> 3. 对产品界面进行优化，使用户操作界面更趋人性化；
+                  <br /> 4. 根据用户特点，收集和分析用户对GUI的需求；
+                  <br /> 5. 领导交办的其他相关事宜；
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                  任职要求：
+                  <br /> 1. 能熟练使用Photoshop、Illustrator、AE等相关图像制作工具;
+                  <br /> 2. 了解手机UI界面设计流程，有较强的图案界面设计功底，有较强的色彩把控能力，极具设计创意；
+                  <br /> 3. 对UI设计有良好的认知和深刻的理解，有人机设计经验
+                  <br /> 4. 熟悉Android、ios等移动系统平台特性，做过手机界面设计;
+                  <br /> 5. 专科及以上学历，美术、平面设计，数字媒体艺术等相关专业毕业，一年至三年以上相关行业UI工作经验;
+              </div>
+            </div>
+
+            <div class="child" id="jobChild18">
+              <p class="name">BD专员</p>
+              <div class="department">
+                <span class="sub"></span>招聘人数:
+                <span class="redSpan">若干</span>
+                <span class="sub">|</span>学历:
+                <span>专科及以上学历，市场营销类、医学类、护理类及相关专业</span>
+              </div>
+              <div class="childPointer"></div>
+              <div class="childContent">
+                <p>
+                  岗位职责：
+                  <br /> 1. 根据公司产品特点进行客户开拓，对接、维护、促进合作关系建立；
+                  <br /> 2. 日常维护公司面向B端的合作伙伴关系；
+                  <br /> 3. 围绕B端需求统筹战略合作资源目标，并制定拓展计划；
+                  <br /> 4. 调动公司内部资源，统筹项目成员完成合作项目落实，保证合作效果和目标达成；
+                  <br /> 5. 负责B端客户的日常维护及运营工作；
+                  <br /> 6. 领导交办的相关事宜；
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                  任职要求：
+                  <br /> 1. 具有良好的市场敏锐度，能迅速捕捉客户的动向;
+                  <br /> 2. 高情商，良好的沟通能力和团队合作精神；
+                  <br /> 3. 举止得当，形象气质佳；
+                  <br /> 4. 专科及以上学历，市场营销类、医学类、护理类及相关专业;
+                  <br /> 5. 有银行增值服务、家庭医疗器械、医疗健康行业等市场工作经验者优先;
+              </div>
+            </div>
+            <div class="child" id="jobChild18">
+              <p class="name">运营专员</p>
+              <div class="department">
+                <span class="sub"></span>招聘人数:
+                <span class="redSpan">若干</span>
+                <span class="sub">|</span>学历:
+                <span>专科及以上学历，心理学、医药护理类等相关专业</span>
+              </div>
+              <div class="childPointer"></div>
+              <div class="childContent">
+                <p>
+                  岗位职责：
+                  <br /> 1. 协助领导做好运营管理工作，与BD专员一起对B端合作伙伴进行定期巡查；
+                  <br /> 2. 运营管理公司微信公众号，定期发布健康相关公众号文章，提升公众号关注度进行吸粉；
+                  <br /> 3. 对用户使用行为数据进行分析，为产品经理及BD专员提供分析报告；
+                  <br /> 4. 根据用户情况，对用户进行远程电话或线上健康咨询服务；
+                  <br /> 5. 领导交办的相关事宜；
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                  任职要求：
+                  <br /> 1. 具备同理心能换位思考，为用户着想做到贴心服务;
+                  <br /> 2. 具有健康管理相关知识背景，能进行专业知识解答；
+                  <br /> 3. 熟悉数据分析通过数据了解用户行为特点
+                  <br /> 4. 具备家庭医疗器械相关经验或有健康管理资格证书者优先;
+                  <br /> 5. 专科及以上学历，心理学、医学护理类相关专业，1年至3年相关工作经验;
+              </div>
+            </div>
+            <div class="child" id="jobChild18">
+              <p class="name">健康管理师</p>
+              <div class="department">
+                <span class="sub"></span>招聘人数:
+                <span class="redSpan">若干</span>
+                <span class="sub">|</span>学历:
+                <span>专科及以上学历，心理学、医药护理、中医、医学类等相关专业</span>
+              </div>
+              <div class="childPointer"></div>
+              <div class="childContent">
+                <p>
+                  岗位职责：
+                  <br /> 1. 针对健康管理行业特点梳理话术；
+                  <br /> 2. 指导公司健康管理用户设定健康管理计划；
+                  <br /> 3. 对健康管理平台体征测量有异常的用户主动发起询问；
+                  <br /> 4. 接受用户在线及电话健康咨询服务；
+                  <br /> 5. 整理用户健康咨询档案，并对咨询问题进行分析；
+                  <br /> 6. 领导交办的其他相关事宜；
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                  任职要求：
+                  <br /> 1. 具备同理心能换位思考，为用户着想做到贴心服务;
+                  <br /> 2. 具有健康管理、中医、医学、护理类相关知识背景，能进行专业知识解答；
+                  <br /> 3. 熟悉数据分析通过数据了解用户行为特点；
+                  <br /> 4. 具备家庭医疗器械相关经验、护士证、健康管理师证者优先;
+                  <br /> 5. 专科及以上学历，心理学、医药护理、中医、医学类等相关专业，1年至3年相关工作经验;
+              </div>
+            </div>
+
+          </div>
+          <div class="foot">
+            <p class="redTitle">应聘流程及需知:</p>
+            <p class="info1">首先请留意上面的招聘信息是否有合适你的职位。详细阅读职位要求并向我们发送你的个人简历以及相关作品，我们将安排专人评审您的应聘邮件，通过对简历进行筛选进入以下流程 -> 面试/复试
+              -> 确认入职时间 -> 报到 -> 试用 -> 入职</p>
+
+            <p class="info2">有意者请发简历、作品和近照至 <span>hr@51healthinfo.com</span></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 招商 -->
+    <div id="cooperations">
+      <div class="customer mks">
+        <div class="container">
+          <p class="mainTitle">渠道招商</p>
+          <div class="mainSub"></div>
+          <span class="mainInfo">合作共赢</span>
+
+        </div>
+      </div>
+      <div class="footerNav">
+        <div class="container">
+          <div class="right" id="right">
+            <p class="info">
+              与新融汇通合作，您会收获一个专业、“狼性”、团结的团队。<br />我们以客户至上，竭力打造共赢平台，力求为用户呈现最好的健康管理咨询服务。
+            </p>
+            <p class="callTitle">合作热线：<span class="callMun">199 5713 2733</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 联系 -->
+    <div id="contacts">
+      <div class="map">
+        <p class="mapTitle">联系我们</p>
+        <div class="mapSub"></div>
+        <p class="mapInfo">如果您是亲临新融汇通，有以下交通方式可供选择：</p>
+        <p class="mapInfo">
+          乘坐地铁：5号线，在蒋村站下车步行至互联网创新创业园即到。
+        </p>
+        <p class="mapInfo">自驾车：参考地图标示蒋墩路，紫霞街，枫树路等均可到达。</p>
+
+        <div class="mapc">
+          <div class="mapContent" id="mapContent"></div>
+        </div>
+      </div>
+      <div class="contactTable">
+        <div class="container">
+          <div class="left">
+            <span class="redTitle">Hi,are you ready?</span>
+            <p class="title">准备好开始了吗?<br />那就与我们取得联系吧</p>
+          </div>
+          <div class="right">
+            <div class="footTitle">
+              <span class="titleB">New together </span>
+              <span class="titleB">新融汇通</span>
+            </div>
+            <p class="info">地 址：杭州西湖区紫霞街176号<span class="disno">杭州互联网创新创业园</span>3栋321室</p>
+            <p class="info">E-mail：cs@51healthinfo.com&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p class="info">
+              Tel:<span style="color: #0d6898; font-weight: 700;"> 199 5713 2733 </span>
+            </p>
+          </div>
+          <div class="textCont">
+            关于新融汇通健康管家的使用问题、改进建议，或举报不良信息皆可反馈给我们，我们将会尽快与你取得联系。当然也欢迎您给我们打电话，让我们听到你的声音!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer" id="footer">
+    <div class="footer_center">
+      <div class="footer_about">
+        <div class="footer_about_btn">
+          <span class="footer_about_title">关于：</span>
+          <a href="#redwinds" data-track="关于-公司简介" id="red">公司简介</a>
+          <span style="display:none">
+            <font>|</font>
+            <a href="http://www.51healthinfo.com/" data-track="关于-媒体报道" target="_blank">媒体报道</a>
+          </span>
+          <font>|</font>
+          <a href="#jobs" data-track="关于-招聘中心" id="job">招聘中心</a>
+          <font>|</font>
+          <a href="#cooperations" data-track="关于-渠道招商" id="coop">渠道招商</a>
+          <font>|</font>
+          <a href="#contacts" data-track="关于-联系我们" id="cont">联系我们</a>
+          <span style="display: none;">
+            <font>|</font>
+            <a href="http://www.51healthinfo.com/" data-track="关于-帮助中心" target="_blank">帮助中心</a>
+          </span>
+        </div>
+
+        <div class="friend_box" id="friendBox">
+          <div class="friend_list">
+            <ul id="friendlist" class="friend_list">
+              <li>
+                <img src="./images/singlee.png">
+              </li>
+              <li>
+                <img src="./images/jafron.png">
+              </li>
+              <li>
+                <img src="./images/casa.png" style="background-color: #1fb9ff">
+              </li>
+              <li>
+                <img src="./images/ICBC.png">
+              </li>
+              <li>
+                <img src="./images/ccb.png">
+              </li>
+              <li>
+                <img src="./images/abc.png">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="friend_box" id="friendBox2" style="display: none;">
+        <div class="friend_list">
+          <ul id="friendlist" class="friend_list">
+            <li>
+              <img src="./images/singlee.png">
+            </li>
+            <li>
+              <img src="./images/jafron.png">
+            </li>
+            <li>
+              <img src="./images/casa.png" style="background-color: #1fb9ff">
+            </li>
+            <li>
+              <img src="./images/ICBC.png">
+            </li>
+            <li>
+              <img src="./images/ccb.png">
+            </li>
+            <li>
+              <img src="./images/abc.png">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="mlj_inscribed" style="line-height:50px;">
+        <span>杭州新融汇通科技有限公司 版权所有 2020-2021</span><br class="br" style="display: none;">
+        <span><a href="http://www.beian.miit.gov.cn/" target="_blank">浙ICP备20021424号-1</a></span>
+        <span class="disno">Email：cs@51healthinfo.com</span>
+        <span class="disno">客服微信：<img src="./images/wexin.jpg" style="height:70px;width:70px;"></span>
+      </p>
+    </div>
+
+  </div>
+
+  <script src="./js/jquery.v1.9.1.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/index.js?v=20200706"></script>
+
+  <script src="./js/jquery.easing.min.js"></script>
+  <script src="./js/jquery.nicescroll.min.js"></script>
+  <script src="./js/jquery.mousewheel.js"></script>
+  <script src="./js/base.js"></script>
+  <!-- 简介模块 -->
+  <script src="./js/rewind.js"></script>
+  <!-- 联系模块 -->
+  <script src="./js/contact.js?v=20200724"></script>
+  <!-- 工作模块 -->
+  <script src="./js/job.js"></script>
+
+</body>
+
+</html>
